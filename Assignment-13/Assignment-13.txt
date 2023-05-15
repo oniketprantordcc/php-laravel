@@ -1,0 +1,43 @@
+
+
+======================
+Part-1:
+Documentation to install Laravel by Using Composer:
+
+1.Make sure the installment of  Composer on your system. If not, you can download and install it from the official Composer website (https://getcomposer.org/).
+
+Open a terminal or command prompt.
+
+2.Navigate to the directory where you want to install Laravel.
+
+Run the following command to create a new Laravel project:
+
+composer create-project --prefer-dist laravel/laravel project-name
+
+3.Replace project-name with the desired name for your Laravel project.
+
+4.Composer will download the necessary dependencies and set up the Laravel project for you. This may take a few minutes.
+
+5.Once the installation is complete, you can navigate into the project directory:
+
+cd project-name
+=====================
+Part 2:
+Describe the purpose of each of the following folders in a Laravel project:
+
+#app-Most importnat folder .contain http(controller),model,consol etc 
+#bootstrap-Contain cache, app.php , services ,packages(auto generated setting,if needed can be changed)
+#config- All type of configuration will be found there .Bydefault standerd setting, if needed can be changed)
+#database-Contain factories,migration,seeders.All type database related work wil be done here .
+#public-Starting index file will be there .
+#resources- CSS,JS,View related/front end related resource will be found here .
+#routes-Different type of url will be there. api.php,web.php .
+#storage- app- public - laravel file will be kept here.Track different login related issue.
+#tests-Tests folder serves as the default location for storing automated tests.
+#Vendor-composer take it cutomaticaly. parent folder will be auto generated with .php package . 
+
+
+
+=================
+
+
