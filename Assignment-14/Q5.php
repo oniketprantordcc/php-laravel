@@ -21,5 +21,5 @@ if ($request->hasFile('avatar')) {
     
     $file->move('uploads', $filename);
     
-    // Additional logic or database storage as needed
+  
 }
