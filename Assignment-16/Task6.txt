@@ -1,0 +1,10 @@
+/*
+Task 6:
+After creating the new migration file, run the migration to add the "category" column to the "products" table.
+
+*/
+
+//
+php artisan make:migration add_category_to_products
+//
+php artisan migrate

@@ -1,0 +1,6 @@
+/*
+Task 8:
+After creating the migration file for the "orders" table, run the migration to create the "orders" table in the database.
+*/
+//
+php artisan migrate

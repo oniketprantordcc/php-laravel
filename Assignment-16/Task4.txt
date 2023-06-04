@@ -1,0 +1,15 @@
+/*
+Task 4:
+Modify the existing migration file "create_products_table" to add a new column called "quantity" to the "products" table.
+The "quantity" column should be an integer column and allow null values.
+
+*/
+
+//
+php artisan make:migration add_quantity_to_products
+
+//
+$table->integer('quantity')->nullable();
+
+//
+php artisan migrate

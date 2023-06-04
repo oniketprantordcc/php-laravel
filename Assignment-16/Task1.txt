@@ -1,0 +1,11 @@
+/*
+Task 1:
+Create a new Laravel project named "MigrationAssignment" using the Laravel command-line interface.
+
+*/
+ 
+
+
+composer create-project laravel/laravel MigrationAssignment
+
+ 

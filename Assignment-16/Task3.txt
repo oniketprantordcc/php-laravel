@@ -1,0 +1,6 @@
+/*
+Task 3:
+After creating the migration file, run the migration to create the "products" table in the database.
+*/
+
+php artisan migrate
